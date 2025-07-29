@@ -1,16 +1,15 @@
 export const metaData = {
   baseUrl: "https://nextfolio-template.vercel.app/",
-  title: "Nextfolio",
+  title: "Orbet Lozada",
   name: "Sirius",
-  ogImage: "/opengraph-image.png",
+  ogImage: "/logo_ol.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Mi portafolio personal, que habla sobre mis proyectos mas recientes y relevantes en mi carrera como desarrollador.",
+  logo: "/logo_ol.png"
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
-  github: "https://github.com/1msirius/Nextfolio",
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  github: "https://github.com/orbetjose",
+  linkedin: "https://www.linkedin.com/in/orbet-lozada/",
+  email: "mailto:orbetjose@gmail.com",
 };
