@@ -16,7 +16,7 @@ export default function card({
   image,
 }: cardProps) {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-slate-800 dark:border-slate-700">
+    <div className="max-w-sm  border border-gray-200 rounded-lg shadow-sm bg-slate-800 dark:border-slate-700">
       <a href={url} target="_blank">
         <Image
           src={image}
@@ -30,11 +30,11 @@ export default function card({
       </a>
       <div className="p-5">
         <a href={url} target="_blank">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
             {title}
           </h5>
         </a>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p className="mb-3 font-normal text-gray-400">
           {description}
         </p>
         <a
