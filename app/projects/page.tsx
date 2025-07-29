@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">Proyectos</h1>
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <Card
             key={index}
